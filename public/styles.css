@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+  padding: 20px;
+  font-family: "Rubik";
+  color: #333;
+  background-color: #DEDEDE;
+}
+main {
+  width: 600px;
+  margin: 0 auto;
+}
+h1, h2, h3, header {
+  text-align: center;
+}
+header {
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+input, button{
+  padding: 10px;
+  font-family: "Rubik";
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 4px
+}
+form button {
+  margin-left: auto;
+}
+button, input[type=submit] {
+  border: 2px solid black;
+  background: #ef4444;
+  color: white;
+  margin-top: 20px
+}
+.htmx-indicator{
+  display:none;
+}
+.htmx-request .htmx-indicator{
+  display:inline;
+}
+.htmx-request.htmx-indicator{
+  display:inline;
+}
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 700px
+}
+#no-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px
+}
+.demo4 {
+  color: red;
+  transition: all ease-in 5s ;
+}
+ol {
+	padding: 0;
+	margin-left: 16px;
+	max-width: 700px;
+	position: relative;
+}
+li {
+	padding: 0.5rem 1.5rem 0.75rem;
+	border-radius: 1.5rem;
+	background: peachpuff;
+  font-size: 1.5rem
+}
+li + li {
+	margin-top: 1rem;
+}
+::marker {
+	font-weight: 600;
+	color: tomato;
+	font-size: 1.8rem;
+}
+
+#error-container {
+  color: red;
+  font-weight: bold;
+}

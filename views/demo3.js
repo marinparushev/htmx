@@ -1,0 +1,1 @@
+export const demo = () => /*html*/`<p>That was slow, wasn't it?</p>`;
